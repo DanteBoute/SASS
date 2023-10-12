@@ -1,10 +1,10 @@
 body {
   font: 100% "Space Mono", monospace;
-  color: white;
+  color: blue;
   margin: 0px;
   padding: 0px;
-  background-color: black;
-  background-image: radial-gradient(black, rgba(255, 255, 255, 0.2) 2px, transparent 40px), radial-gradient(#fff, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(#fff, rgba(255, 255, 255, 0.1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
+  background-color: beige;
+  background-image: radial-gradient(beige, rgba(255, 255, 255, 0.2) 2px, transparent 40px), radial-gradient(#fff, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(#fff, rgba(255, 255, 255, 0.1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   background-attachment: fixed;
@@ -47,7 +47,7 @@ article section#selling-points {
   flex-basis: 100%;
 }
 article pre {
-  background: black;
+  background: beige;
   border: 1px solid #ddd;
   color: #666;
   font-family: monospace;
@@ -72,7 +72,7 @@ article pre.after {
 h1,
 h2,
 h6 {
-  color: white;
+  color: blue;
 }
 
 h1 {
@@ -94,8 +94,8 @@ h6 {
   border: 1px solid #ccc;
   padding: 16px;
   margin: 16px;
-  color: white;
-  background-color: black;
+  color: blue;
+  background-color: beige;
 }
 
 .success {
