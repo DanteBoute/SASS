@@ -55,11 +55,11 @@ article {
       clear: both;
       overflow: auto;
       box-sizing: border-box;
-  }
-
-  section#selling-points {
+      
+      #selling-points {
       flex-grow: 2;
       flex-basis: 100%;
+      }
   }
 
   pre {
