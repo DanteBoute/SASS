@@ -24,11 +24,6 @@ article {
   display: flex;
   flex-wrap: wrap;
 }
-
-article {
-  display: flex;
-  flex-wrap: wrap;
-}
 article section {
   box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
   -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
@@ -60,11 +55,11 @@ article pre {
   display: block;
   white-space: pre-wrap;
 }
-article pre.before {
+article pre .before {
   float: left;
   width: 40%;
 }
-article pre.after {
+article pre .after {
   float: right;
   width: 40%;
 }

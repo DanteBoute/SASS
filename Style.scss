@@ -34,10 +34,6 @@ body{
     background-color: red;
 
 }
-  article {
-    display: flex;
-    flex-wrap: wrap;
-  }
 @mixin shadows1 {
     box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
     -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
@@ -79,17 +75,16 @@ article {
       padding: $myPadding;
       display: block;
       white-space: pre-wrap;
-  }
-
-  pre.before {
+    .before {
       float: left;
       width: 40%;
-  }
+    }
 
-  pre.after {
+    .after {
       float: right;
       width: 40%;
-  }
+    }
+}
 }
   
   h1,
