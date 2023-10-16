@@ -2,7 +2,7 @@ $text-color:white!default;
 $background-color1:black!default;
 $myPadding: 16px!default;
 
-body {
+body{
     font: 100% "Space Mono", monospace;
     color: $text-color;
     margin: 0px;
@@ -109,8 +109,7 @@ article {
     margin-bottom: 0px;
   }
   
-  .message,
-  .basic-style{
+  .message{
     border: 1px solid #ccc;
     padding: $myPadding;
     margin: 16px;
@@ -119,16 +118,16 @@ article {
   }
   
   .success {
-    @extend .basic-style;
+    @extend .message;
     background-color: green;
   }
   
   .error {
-    @extend .basic-style;
+    @extend .message;
     background-color: red;
   }
   
   .warning {
-    @extend .basic-style;
+    @extend .message;
     background-color: orange;
   }
